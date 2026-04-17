@@ -179,7 +179,7 @@
     <article class="policy">
       <div class="policy-header">
         <p class="policy-meta">
-          <span>Last updated: 2026-04-04</span>
+          <span>Last updated: 2026-04-17</span>
           <span>App: Schätzpoker</span>
           <span>Developer: Coastforge Studio</span>
         </p>
@@ -215,6 +215,7 @@
             <li>played question progress</li>
             <li>unlocked bonus-question progress for the progressive free pack</li>
             <li>local player profiles, stats, titles, and mystery unlocks</li>
+            <li>local balances and progress related to Jetons, fragments, research, and question unlocks</li>
             <li>local unlock status for question packs and purchases</li>
             <li>app preferences such as sound, default setup, and game settings</li>
           </ul>
@@ -234,12 +235,17 @@
             <li>played question IDs</li>
             <li>unlocked question counts and milestone-based bonus unlock counts</li>
             <li>entitlement information and locally stored owned billing product IDs</li>
+            <li>Jetons, fragment inventory, fragment-forge history, and research/shop progress</li>
             <li>player profiles, local stats, title progress, mystery progress, and unlock history</li>
             <li>app preferences</li>
           </ul>
           <p>
             This data is not uploaded to a Coastforge Studio backend because the app currently does
             not use its own online backend for accounts, cloud sync, or profile storage.
+          </p>
+          <p>
+            As a result, deleting app data, uninstalling the app, or switching to another device
+            may remove locally stored progress and locally stored consumable content.
           </p>
         </section>
 
@@ -267,18 +273,35 @@
             validation, fraud prevention, and purchase restoration. The processing of such platform
             data is governed by Google's own terms and privacy information.
           </p>
+          <p>
+            In the current app structure, non-consumable purchases such as ad-free entitlements may
+            be restored through Google Play where supported. Consumable purchases such as Jetons or
+            fragment packs are currently tied to local app data after delivery and are not currently
+            restored through Google Play once that local app data has been removed.
+          </p>
+          <p>
+            If consumable currency or fragments are used to unlock local research progress, that
+            resulting local progress may also be lost if the app data is deleted or the app is
+            uninstalled.
+          </p>
         </section>
 
         <section>
           <h2>7. Advertising and consent</h2>
           <p>
-            At the time of this privacy policy, the current release build does not include finalized
-            advertising SDK integration.
+            The free version of the app may display ads at designated points in the game flow.
+            According to the current project state, advertising and consent handling may be provided
+            through Google AdMob and Google's User Messaging Platform (UMP).
           </p>
           <p>
-            If advertising, consent SDKs, analytics, crash reporting, cloud sync, login, or other
-            third-party SDKs are added in a later release, this privacy policy will be updated
-            before that version is published.
+            Depending on region and legal requirements, users may be shown a consent flow related
+            to advertising. Google may process device and advertising-related information in
+            accordance with its own services and privacy documentation.
+          </p>
+          <p>
+            If additional third-party SDKs such as analytics, crash reporting, cloud sync, login,
+            or further advertising services are added in a later release, this privacy policy will
+            be updated before that version is published.
           </p>
         </section>
 
@@ -297,8 +320,8 @@
           <ul>
             <li>no own backend account system is used</li>
             <li>no own cloud storage is used</li>
-            <li>no analytics SDK is integrated yet</li>
-            <li>no advertising SDK is integrated yet</li>
+            <li>no own analytics backend is used</li>
+            <li>advertising and consent handling may involve Google AdMob and Google UMP</li>
           </ul>
           <p>
             If this changes, this policy will be updated before the affected app version is released.
@@ -313,8 +336,14 @@
             subject to platform behavior.
           </p>
           <p>
-            If purchase entitlements are linked to Google Play products, restoration may still be
-            possible through Google Play where applicable.
+            This may include local player profiles, titles, mystery progress, Jetons, fragments,
+            research progress, and locally unlocked question content.
+          </p>
+          <p>
+            If purchase entitlements are linked to non-consumable Google Play products, restoration
+            may still be possible through Google Play where applicable. Consumable purchases and
+            locally stored progress connected to those consumables are currently not guaranteed to
+            be recoverable after deletion of app data or uninstallation.
           </p>
         </section>
 
